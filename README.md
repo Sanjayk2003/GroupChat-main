@@ -23,48 +23,48 @@ Make sure you have the following installed on your system:
 
 1. Clone the repository:
 
-    bash
+    ```bash
     git clone https://github.com/KANAGARAJ-M/GroupChat.git
-    
+    ```
 
 2. Navigate to the project directory:
 
-    bash
+    ```bash
     cd GroupChat
-    
+    ```
 
 3. Install the dependencies:
 
-    bash
+    ```bash
     npm install
-    
+    ```
 
-4. Create a .env file in the root directory and add your environment variables (e.g., database URL, port number, etc.):
+4. Create a `.env` file in the root directory and add your environment variables (e.g., database URL, port number, etc.):
 
-    bash
+    ```bash
     touch .env
-    
+    ```
 
-    Example of .env file:
+    Example of `.env` file:
 
-    env
+    ```env
     PORT=3000
     MONGODB_URI=mongodb://localhost:27017/groupchat
-    
+    ```
 
 5. Start the MongoDB server:
 
-    bash
+    ```bash
     mongod
-    
+    ```
 
 6. Run the application:
 
-    bash
+    ```bash
     npm start
-    
+    ```
 
-7. Open your browser and navigate to http://localhost:3000.
+7. Open your browser and navigate to `http://localhost:3000`.
 
 ## Usage
 
@@ -81,30 +81,30 @@ We welcome contributions to improve the GroupChat project! Here’s how you can 
 1. Fork the repository.
 2. Create a new branch:
 
-    bash
+    ```bash
     git checkout -b feature/your-feature-name
-    
+    ```
 
 3. Make your changes and commit them:
 
-    bash
+    ```bash
     git commit -m "Add your commit message"
-    
+    ```
 
 4. Push to your forked repository:
 
-    bash
+    ```bash
     git push origin feature/your-feature-name
-    
+    ```
 
 5. Open a pull request with a description of the changes.
 
 ### Contributors
 
-- *Kanagaraj M* - Project Lead - [KANAGARAJ-M](https://github.com/KANAGARAJ-M)
-- *Sanjay Kumar K* - Contributor - [Sanjay Kumar K](https://github.com/Sanjayk2003)
-- *Naveen Kumar S* - Contributor - [Naveen Kumar S](https://github.com/naveen02052004)
-- *Sujith S* - Contributor - [Sujith S](https://github.com/Sujith-Sekar)
+- **Kanagaraj M** - *Project Lead* - [KANAGARAJ-M](https://github.com/KANAGARAJ-M)
+- **Sanjay Kumar K** - *Contributor* - [Sanjay Kumar K](https://github.com/Sanjayk2003)
+- **Naveen Kumar S** - *Contributor* - [Naveen Kumar S](https://github.com/naveen02052004)
+- **Sujith S** - *Contributor* - [Sujith S](https://github.com/Sujith-Sekar)
 
 Feel free to add your name and GitHub profile if you've contributed to the project!
 
@@ -115,3 +115,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Acknowledgments
 
 - Inspiration for this project came from the need for simple and effective group communication tools.
+
